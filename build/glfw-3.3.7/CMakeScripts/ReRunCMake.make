@@ -23,5 +23,5 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/trevordoucet/Desktop/
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/trevordoucet/Desktop/Computer\ Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/glfw3Config.cmake.in))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/trevordoucet/Desktop/Computer\ Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/glfw_config.h.in))
 
-/Users/trevordoucet/Desktop/Computer\ Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/CMakeFiles/cmake.check_cache: $(TARGETS)
-	/Applications/CMake.app/Contents/bin/cmake -S/Users/trevordoucet/Desktop/Computer\ Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD -B/Users/trevordoucet/Desktop/Computer\ Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build
+/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/CMakeFiles/cmake.check_cache: $(TARGETS)
+	/Applications/CMake.app/Contents/bin/cmake -S/Users/trevordoucet/Desktop/Computer\ Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD -B/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build

@@ -37,11 +37,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
-set(CMAKE_BINARY_DIR "/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build")
+set(CMAKE_BINARY_DIR "/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build")
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/cmake_install.cmake")
+  include("/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

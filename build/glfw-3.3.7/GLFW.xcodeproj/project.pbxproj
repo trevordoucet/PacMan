@@ -9,21 +9,21 @@
 /* Begin PBXAggregateTarget section */
 		409A0DE940654550B650B9AE /* update_mappings */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 9020DE8BB62A40C197B8D91A /* Build configuration list for PBXAggregateTarget "update_mappings" */;
+			buildConfigurationList = 111357EA3B364A10ADD1444C /* Build configuration list for PBXAggregateTarget "update_mappings" */;
 			buildPhases = (
-				83390919975BD83F10354016 /* Generate src/CMakeFiles/update_mappings */,
+				12F457B1F3A0C19B3FAE9CB2 /* Generate src/CMakeFiles/update_mappings */,
 			);
 			dependencies = (
-				A71596321F844712A3FAC04F /* PBXTargetDependency */,
+				28A0FCEA08734515AA4E81FD /* PBXTargetDependency */,
 			);
 			name = update_mappings;
 			productName = update_mappings;
 		};
 		B584B7FF9F56432B9C37D9F6 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 31C3EB022E06432486BF15E1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = AFEF323AEC1E419F905777E9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				28D27CFCFFEFF05F4E86132F /* Generate CMakeFiles/ZERO_CHECK */,
+				E550755D6AD9A608D5BF799F /* Generate CMakeFiles/ZERO_CHECK */,
 			);
 			dependencies = (
 			);
@@ -32,13 +32,13 @@
 		};
 		BF7DCD5B97554708A5B7A17A /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 5693C277D8144741834D8047 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 0D5E8D1BA6FC4B9CBA8FDA36 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				666E90172FE11C5215C7AB28 /* Generate CMakeFiles/ALL_BUILD */,
+				60021C2B1462458C2AC77604 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				9AA7CB177DE54D6CAF54E552 /* PBXTargetDependency */,
-				BB55899FA6A94B0D8AAE67B8 /* PBXTargetDependency */,
+				5E225A484F8A4266ABE8127F /* PBXTargetDependency */,
+				D2C50AC19B0B40428B3AC43D /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -46,134 +46,134 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		10F23113A8F34868890C588F /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 5BD2AEDA8E9041B399C0C56D /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/nsgl_context.h */; };
-		123DA647BCEC415D86CCE40F /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 7F6553EC29B2488AA4BB6820 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include/GLFW/glfw3.h */; };
-		21A46ED4734D449F965E7353 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/window.c */ = {isa = PBXBuildFile; fileRef = 472A44C04C4D4263B1472A46 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/window.c */; };
-		21F5201C1DD44499BA15C07E /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/input.c */ = {isa = PBXBuildFile; fileRef = 92DBB08A8E434E22AE6CB492 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/input.c */; };
-		2681174B8115452284ABC79D /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 5DCDB1E564164E048922ACFE /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_init.m */; };
-		2BA2D692142B413591BDB099 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 8AAD9CA3CD2148ACA2A6D8B2 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/CMakeLists.txt */; };
-		2DF947E9A2D24E5BAC3DD9D4 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/init.c */ = {isa = PBXBuildFile; fileRef = 69377F83A6284650B08BE9DB /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/init.c */; };
-		3E41EC6958854FDD93E5298A /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 4DB9DCC6609D432C927322DF /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_joystick.h */; };
-		43E2FE5C1E944DF999800A62 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = 075130F6CE344CBBAEF5DFBA /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/egl_context.c */; };
-		4BB9EFBB775C4A65BEF9F9BC /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 64B61B8260F943E88B6CDDE6 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_joystick.m */; };
-		6358A22F36AE4078A766E5B2 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/internal.h */ = {isa = PBXBuildFile; fileRef = 159761A0DB3849FA901FBB40 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/internal.h */; };
-		69853075447C46618DB99523 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 4D7D011EB40C4A408A3D60F0 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/monitor.c */; };
-		729CE6E4AA634B7F81F0F4E9 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = 40A6FCC762AE44D08708EBDE /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/vulkan.c */; };
-		7E43CD5883F5420691B45B83 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = 5731A654524E43F2BF3ACB66 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/posix_thread.c */; };
-		81929BACECD3437289B6D14C /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 33469F38E1B74903A48DAAE3 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_platform.h */; };
-		9916304FDBEF419AA4596BC5 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = 5E6D159259F64678BBDA00DA /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/osmesa_context.c */; };
-		9935C9C7BC1245EFBEAF4180 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/mappings.h */ = {isa = PBXBuildFile; fileRef = FA194555A52F4D5D82D7738F /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/mappings.h */; };
-		A46171EA5BFA4C24A9D43043 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 3683E8A892234C8092E8DB88 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include/GLFW/glfw3native.h */; };
-		AC8055BF71CA42C5A92BD28E /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = ED4B8860DE7D40E089870D10 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_monitor.m */; };
-		AE0B3D2657364EC0A0324093 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/context.c */ = {isa = PBXBuildFile; fileRef = A9E5C8B9D43D4E28B706A9A9 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/context.c */; };
-		B344597BFF9E42C982A1A3B1 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 9C46E1A51B0644B9B3F97B86 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_time.c */; };
-		B9F915AD5EC243B8BAA0C654 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 57EBF8C6AD3E441884C6B6CB /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_window.m */; };
-		BB550A00E11E4C56B37A526E /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = EF8E703538624AF1A35194F3 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/src/glfw_config.h */; };
-		BD49B5B32EFA4274B50F26C4 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/osmesa_context.h */ = {isa = PBXBuildFile; fileRef = DD16787C01184E5189A032DC /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/osmesa_context.h */; };
-		BDD75FBC509A4CECA0F4A843 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/egl_context.h */ = {isa = PBXBuildFile; fileRef = F4DD38AB54564C448FC72E66 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/egl_context.h */; };
-		C5D9E3FDD13242F485700E37 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 91B8289DB97243D298F981B7 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/nsgl_context.m */; };
-		DD454812F2E94D188695D777 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = E9D005B928D24E5B80E93AFE /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/posix_thread.h */; };
+		01C630DA052942FE84E943A4 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/osmesa_context.h */ = {isa = PBXBuildFile; fileRef = 82CD9185FBBC4A96BDF7BB3F /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/osmesa_context.h */; };
+		0E452E3484004B9FA0C2C301 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = B37CE48B01D34A40A17120F2 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_joystick.h */; };
+		0FA1379A7F9B4D54B73DE001 /* /Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = D487076231EC4BB7B0D2AE95 /* /Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/src/glfw_config.h */; };
+		176DA6ACA01949CD9D4E456E /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 7A03ECA3FC4C428F94F61F9F /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/nsgl_context.h */; };
+		2367E0D4DC294C8496232963 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = A658B184AF354402987F0EE4 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_platform.h */; };
+		258DDE4C27F340B8881C3FDA /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = AB623E8AE6944DCC9406D7A7 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/nsgl_context.m */; };
+		392444DDC8A3474A9C74F0EE /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/internal.h */ = {isa = PBXBuildFile; fileRef = 9BB64075AA224518BB549485 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/internal.h */; };
+		4D0E34C5858340DAA29FC833 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9B6EE568D83D4CC996CEB281 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/CMakeLists.txt */; };
+		560DE998515D45D3957E8915 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/init.c */ = {isa = PBXBuildFile; fileRef = B161CDCE5F5D4F0F8C9A8B2F /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/init.c */; };
+		5766557A7055415C90C224DE /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 6C9163EB715A4F7BA5E84C9D /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/monitor.c */; };
+		5B8BBCDEAF594920AC21A734 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 7761599C170646F18C3BC337 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_monitor.m */; };
+		5BCBF958BAC44DEEB196C50C /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = FA81567C77654AE3B6D47816 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_window.m */; };
+		76E1A3AC26FE4EB8B988F53B /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = C8C3B385EC9E459A940F8845 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/vulkan.c */; };
+		77B73B5AF10941BD80176A28 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = EAE3B9DA99A44AE4AD0A06C9 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_time.c */; };
+		7A9F8213451341FB98AC9AD5 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 8ECA558F4F354037AB1A61CD /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_joystick.m */; };
+		86CCD10BD01B4FFFB40B55A0 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/mappings.h */ = {isa = PBXBuildFile; fileRef = FBFED3669E47402E963EA433 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/mappings.h */; };
+		8C4BB20088D5426681B4D0EF /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/input.c */ = {isa = PBXBuildFile; fileRef = 9310A6A701954D6CB080801E /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/input.c */; };
+		8E18C45623F14AA08F941920 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = DF66A9B0F92B459591A452DD /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/posix_thread.h */; };
+		93BB1EDE2CDD4389AF91C7E9 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 99F8CFD493A74CE18E870CE8 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include/GLFW/glfw3native.h */; };
+		9DFA8D0AD087412D842A3C21 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = D70C8F8F61084AE985A0655E /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include/GLFW/glfw3.h */; };
+		ADA5E24A000C487F847F4280 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/egl_context.h */ = {isa = PBXBuildFile; fileRef = 8E942A1E3AE943A4AAC29E73 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/egl_context.h */; };
+		ADB41BF2AD8D41BC9F63EB5D /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/context.c */ = {isa = PBXBuildFile; fileRef = 8A6459B13731401898FB7373 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/context.c */; };
+		B96A4E79A4BB4B99A4717195 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = 453827B572944065A7A736B6 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/posix_thread.c */; };
+		C3E94FED42034816979DD921 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = 1014CDAC5A7047D9B1FAB195 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/egl_context.c */; };
+		DC6BFBB190844DE5A18EF3AF /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 55D40F5D019440D0A7297B0F /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_init.m */; };
+		F16B2CB44D9C46018833F664 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = 73197F425799481E90BDA10D /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/osmesa_context.c */; };
+		F9F068FC45BA4171A67E4DFF /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/window.c */ = {isa = PBXBuildFile; fileRef = B0E435E1D6284E4D88D4C256 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/window.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		598D3284C7FA4ED4B07A1463 /* Debug */ = {
+		21C832D472A64C599319C656 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		A530BD9E5E7C42B38A13F07C /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		AC287A856A524A6EBEEAE098 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		CEC9741369404ED19D15921A /* Release */ = {
+		9F3B83D3335D49DC9BC1260E /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
+		A012C1D0D19646F98ECADDAE /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		A09A59FC3CF842B58F56C320 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		23BD764547A743C491132442 /* PBXContainerItemProxy */ = {
+		36E96CFC2ED0443783989492 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AF5EEB0A31A94539BDB22A57 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B584B7FF9F56432B9C37D9F6;
 			remoteInfo = ZERO_CHECK;
 		};
-		6282B5961CAF4972B5D383DF /* PBXContainerItemProxy */ = {
+		5DDEF88835B44FA7950C03AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5EEB0A31A94539BDB22A57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B584B7FF9F56432B9C37D9F6;
+			remoteInfo = ZERO_CHECK;
+		};
+		B0845EE14436462D8D30918D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5EEB0A31A94539BDB22A57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B584B7FF9F56432B9C37D9F6;
+			remoteInfo = ZERO_CHECK;
+		};
+		C382E40FC8D94AED9FE3BF2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AF5EEB0A31A94539BDB22A57 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CED32B1B8EF646E5AD9F879C;
 			remoteInfo = glfw;
 		};
-		698E9D05E59743E381F555F7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AF5EEB0A31A94539BDB22A57 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B584B7FF9F56432B9C37D9F6;
-			remoteInfo = ZERO_CHECK;
-		};
-		9371587CA05246EF8F9EB11F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AF5EEB0A31A94539BDB22A57 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B584B7FF9F56432B9C37D9F6;
-			remoteInfo = ZERO_CHECK;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		075130F6CE344CBBAEF5DFBA /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = src/egl_context.c; sourceTree = SOURCE_ROOT; };
-		159761A0DB3849FA901FBB40 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
-		1B4CD226CFB147B4944FF9EC /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/CMake/GenerateMappings.cmake */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = GenerateMappings.cmake; path = CMake/GenerateMappings.cmake; sourceTree = SOURCE_ROOT; };
-		33469F38E1B74903A48DAAE3 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
-		3683E8A892234C8092E8DB88 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
-		3DD6810580894ABE95F00B52 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/mappings.h.in */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mappings.h.in; path = src/mappings.h.in; sourceTree = SOURCE_ROOT; };
-		40A6FCC762AE44D08708EBDE /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
-		472A44C04C4D4263B1472A46 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
-		4D7D011EB40C4A408A3D60F0 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
-		4DB9DCC6609D432C927322DF /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
-		5731A654524E43F2BF3ACB66 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = src/posix_thread.c; sourceTree = SOURCE_ROOT; };
-		57EBF8C6AD3E441884C6B6CB /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
-		5BD2AEDA8E9041B399C0C56D /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
-		5DCDB1E564164E048922ACFE /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
-		5E6D159259F64678BBDA00DA /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
-		64B61B8260F943E88B6CDDE6 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
-		69377F83A6284650B08BE9DB /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
-		695CC7594E254922AC642BAE /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F6553EC29B2488AA4BB6820 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
-		8AAD9CA3CD2148ACA2A6D8B2 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		91B8289DB97243D298F981B7 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
-		92DBB08A8E434E22AE6CB492 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
-		9C46E1A51B0644B9B3F97B86 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
-		A9E5C8B9D43D4E28B706A9A9 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
-		B802CAEE917D4F77A43A8FAF /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		B8CD26BAFC3B44CFB8CC3781 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		DD16787C01184E5189A032DC /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/osmesa_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osmesa_context.h; path = src/osmesa_context.h; sourceTree = SOURCE_ROOT; };
-		E9D005B928D24E5B80E93AFE /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = src/posix_thread.h; sourceTree = SOURCE_ROOT; };
-		ED4B8860DE7D40E089870D10 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
-		EF8E703538624AF1A35194F3 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/src/glfw_config.h"; sourceTree = "<absolute>"; };
-		F4DD38AB54564C448FC72E66 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = src/egl_context.h; sourceTree = SOURCE_ROOT; };
-		FA194555A52F4D5D82D7738F /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = src/mappings.h; sourceTree = SOURCE_ROOT; };
+		1014CDAC5A7047D9B1FAB195 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = src/egl_context.c; sourceTree = SOURCE_ROOT; };
+		360AF225AD29426197D804D2 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		44E4F9691C7F4A96BA780471 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		453827B572944065A7A736B6 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = src/posix_thread.c; sourceTree = SOURCE_ROOT; };
+		50307B6234D041FC833C391E /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/CMake/GenerateMappings.cmake */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = GenerateMappings.cmake; path = CMake/GenerateMappings.cmake; sourceTree = SOURCE_ROOT; };
+		55D40F5D019440D0A7297B0F /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		5AF3F23B19C2463BB4F19278 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/mappings.h.in */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = mappings.h.in; path = src/mappings.h.in; sourceTree = SOURCE_ROOT; };
+		6C9163EB715A4F7BA5E84C9D /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		73197F425799481E90BDA10D /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
+		7761599C170646F18C3BC337 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		7A03ECA3FC4C428F94F61F9F /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		82CD9185FBBC4A96BDF7BB3F /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/osmesa_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osmesa_context.h; path = src/osmesa_context.h; sourceTree = SOURCE_ROOT; };
+		8A6459B13731401898FB7373 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		8E942A1E3AE943A4AAC29E73 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = src/egl_context.h; sourceTree = SOURCE_ROOT; };
+		8ECA558F4F354037AB1A61CD /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		9310A6A701954D6CB080801E /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		99F8CFD493A74CE18E870CE8 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		9B6EE568D83D4CC996CEB281 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9BB64075AA224518BB549485 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		A50B4797BCAA4BD6AD5E818C /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A658B184AF354402987F0EE4 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		AB623E8AE6944DCC9406D7A7 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		B0E435E1D6284E4D88D4C256 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		B161CDCE5F5D4F0F8C9A8B2F /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		B37CE48B01D34A40A17120F2 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		C8C3B385EC9E459A940F8845 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		D487076231EC4BB7B0D2AE95 /* /Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/src/glfw_config.h"; sourceTree = "<absolute>"; };
+		D70C8F8F61084AE985A0655E /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		DF66A9B0F92B459591A452DD /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = src/posix_thread.h; sourceTree = SOURCE_ROOT; };
+		EAE3B9DA99A44AE4AD0A06C9 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		FA81567C77654AE3B6D47816 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		FBFED3669E47402E963EA433 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = src/mappings.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6950AB943C8346CB9F12718A /* Frameworks */ = {
+		640FF7332BAF410C83F2E155 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -183,138 +183,138 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0973A99847C9451297D7919A = {
+		0EE2C7ADAA5649DD98620DBB /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				A69B6A536BB74D159C585112 /* ALL_BUILD */,
-				42078E96CA724C69BD62B3DE /* GLFW3 */,
-				A0175D19286A43AF8584446A /* Products */,
-				9F77174BD1124612A1E143EA /* Frameworks */,
-				126638310A524D339B1AE9F3 /* Resources */,
+				5AF3F23B19C2463BB4F19278 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/mappings.h.in */,
 			);
+			name = "Header Files";
 			sourceTree = "<group>";
 		};
-		126638310A524D339B1AE9F3 /* Resources */ = {
+		32AD084042A9495A98DFD7F2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		14C72E94D26245F08F491512 /* update_mappings */ = {
+		39855847B50E4BE88ED85DCE /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				2D5C55CB85C44385887D857D /* Header Files */,
-				D6551823359C49EE8B42F797 /* CMake Rules */,
-				1B4CD226CFB147B4944FF9EC /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/CMake/GenerateMappings.cmake */,
-				B8CD26BAFC3B44CFB8CC3781 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/CMakeLists.txt */,
+				55D40F5D019440D0A7297B0F /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_init.m */,
+				8ECA558F4F354037AB1A61CD /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_joystick.m */,
+				7761599C170646F18C3BC337 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_monitor.m */,
+				EAE3B9DA99A44AE4AD0A06C9 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_time.c */,
+				FA81567C77654AE3B6D47816 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_window.m */,
+				8A6459B13731401898FB7373 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/context.c */,
+				1014CDAC5A7047D9B1FAB195 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/egl_context.c */,
+				B161CDCE5F5D4F0F8C9A8B2F /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/init.c */,
+				9310A6A701954D6CB080801E /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/input.c */,
+				6C9163EB715A4F7BA5E84C9D /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/monitor.c */,
+				AB623E8AE6944DCC9406D7A7 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/nsgl_context.m */,
+				73197F425799481E90BDA10D /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/osmesa_context.c */,
+				453827B572944065A7A736B6 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/posix_thread.c */,
+				C8C3B385EC9E459A940F8845 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/vulkan.c */,
+				B0E435E1D6284E4D88D4C256 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/window.c */,
 			);
-			name = update_mappings;
+			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		25D56054A0664A3EB1688DC2 /* glfw */ = {
+		461E6B84A7734228BD5B2EBC /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
-				EE20802ACB77478992157B60 /* Source Files */,
-				9D9DEF7848944460B0CE8BA0 /* Header Files */,
-				8AAD9CA3CD2148ACA2A6D8B2 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/CMakeLists.txt */,
 			);
-			name = glfw;
+			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		2D5C55CB85C44385887D857D /* Header Files */ = {
+		52D1100084214A1D993DB310 /* GLFW3 */ = {
 			isa = PBXGroup;
 			children = (
-				3DD6810580894ABE95F00B52 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/mappings.h.in */,
-			);
-			name = "Header Files";
-			sourceTree = "<group>";
-		};
-		42078E96CA724C69BD62B3DE /* GLFW3 */ = {
-			isa = PBXGroup;
-			children = (
-				14C72E94D26245F08F491512 /* update_mappings */,
-				25D56054A0664A3EB1688DC2 /* glfw */,
+				53A957E864924FA587D4A190 /* update_mappings */,
+				CFA86349CFB9493291DC093C /* glfw */,
 			);
 			name = GLFW3;
 			sourceTree = "<group>";
 		};
-		9D9DEF7848944460B0CE8BA0 /* Header Files */ = {
+		53A957E864924FA587D4A190 /* update_mappings */ = {
 			isa = PBXGroup;
 			children = (
-				EF8E703538624AF1A35194F3 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/src/glfw_config.h */,
-				7F6553EC29B2488AA4BB6820 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include/GLFW/glfw3.h */,
-				3683E8A892234C8092E8DB88 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include/GLFW/glfw3native.h */,
-				4DB9DCC6609D432C927322DF /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_joystick.h */,
-				33469F38E1B74903A48DAAE3 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_platform.h */,
-				F4DD38AB54564C448FC72E66 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/egl_context.h */,
-				159761A0DB3849FA901FBB40 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/internal.h */,
-				FA194555A52F4D5D82D7738F /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/mappings.h */,
-				5BD2AEDA8E9041B399C0C56D /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/nsgl_context.h */,
-				DD16787C01184E5189A032DC /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/osmesa_context.h */,
-				E9D005B928D24E5B80E93AFE /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/posix_thread.h */,
+				0EE2C7ADAA5649DD98620DBB /* Header Files */,
+				69CAA6478E58451B959C2810 /* CMake Rules */,
+				50307B6234D041FC833C391E /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/CMake/GenerateMappings.cmake */,
+				360AF225AD29426197D804D2 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/CMakeLists.txt */,
+			);
+			name = update_mappings;
+			sourceTree = "<group>";
+		};
+		69CAA6478E58451B959C2810 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		73E407310D0C4326966888FA /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D487076231EC4BB7B0D2AE95 /* /Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/src/glfw_config.h */,
+				D70C8F8F61084AE985A0655E /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include/GLFW/glfw3.h */,
+				99F8CFD493A74CE18E870CE8 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include/GLFW/glfw3native.h */,
+				B37CE48B01D34A40A17120F2 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_joystick.h */,
+				A658B184AF354402987F0EE4 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_platform.h */,
+				8E942A1E3AE943A4AAC29E73 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/egl_context.h */,
+				9BB64075AA224518BB549485 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/internal.h */,
+				FBFED3669E47402E963EA433 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/mappings.h */,
+				7A03ECA3FC4C428F94F61F9F /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/nsgl_context.h */,
+				82CD9185FBBC4A96BDF7BB3F /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/osmesa_context.h */,
+				DF66A9B0F92B459591A452DD /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/posix_thread.h */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
 		};
-		9F77174BD1124612A1E143EA /* Frameworks */ = {
+		9916F5792A9941D6A692EEB4 = {
 			isa = PBXGroup;
 			children = (
+				A16C994AD2D14DAD97F307B4 /* ALL_BUILD */,
+				52D1100084214A1D993DB310 /* GLFW3 */,
+				DF3F6D1821E0482290A678DD /* Products */,
+				ED386CA4756F48FB8365DF1F /* Frameworks */,
+				32AD084042A9495A98DFD7F2 /* Resources */,
 			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A0175D19286A43AF8584446A /* Products */ = {
+		A16C994AD2D14DAD97F307B4 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				695CC7594E254922AC642BAE /* glfw */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A69B6A536BB74D159C585112 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				E6C11E40FD994A789B7D19D5 /* CMake Rules */,
-				B802CAEE917D4F77A43A8FAF /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/CMakeLists.txt */,
+				461E6B84A7734228BD5B2EBC /* CMake Rules */,
+				44E4F9691C7F4A96BA780471 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		D6551823359C49EE8B42F797 /* CMake Rules */ = {
+		CFA86349CFB9493291DC093C /* glfw */ = {
 			isa = PBXGroup;
 			children = (
+				39855847B50E4BE88ED85DCE /* Source Files */,
+				73E407310D0C4326966888FA /* Header Files */,
+				9B6EE568D83D4CC996CEB281 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/CMakeLists.txt */,
 			);
-			name = "CMake Rules";
+			name = glfw;
 			sourceTree = "<group>";
 		};
-		E6C11E40FD994A789B7D19D5 /* CMake Rules */ = {
+		DF3F6D1821E0482290A678DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				A50B4797BCAA4BD6AD5E818C /* glfw */,
 			);
-			name = "CMake Rules";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		EE20802ACB77478992157B60 /* Source Files */ = {
+		ED386CA4756F48FB8365DF1F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5DCDB1E564164E048922ACFE /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_init.m */,
-				64B61B8260F943E88B6CDDE6 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_joystick.m */,
-				ED4B8860DE7D40E089870D10 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_monitor.m */,
-				9C46E1A51B0644B9B3F97B86 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_time.c */,
-				57EBF8C6AD3E441884C6B6CB /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_window.m */,
-				A9E5C8B9D43D4E28B706A9A9 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/context.c */,
-				075130F6CE344CBBAEF5DFBA /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/egl_context.c */,
-				69377F83A6284650B08BE9DB /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/init.c */,
-				92DBB08A8E434E22AE6CB492 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/input.c */,
-				4D7D011EB40C4A408A3D60F0 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/monitor.c */,
-				91B8289DB97243D298F981B7 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/nsgl_context.m */,
-				5E6D159259F64678BBDA00DA /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/osmesa_context.c */,
-				5731A654524E43F2BF3ACB66 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/posix_thread.c */,
-				40A6FCC762AE44D08708EBDE /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/vulkan.c */,
-				472A44C04C4D4263B1472A46 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/window.c */,
 			);
-			name = "Source Files";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,19 +322,19 @@
 /* Begin PBXNativeTarget section */
 		CED32B1B8EF646E5AD9F879C /* glfw */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C5DE50CF6E948A3A3145DF5 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildConfigurationList = 5FD17A9EFE07416FAEBF5FA2 /* Build configuration list for PBXNativeTarget "glfw" */;
 			buildPhases = (
-				C343E97C631F4571A32FF3FC /* Sources */,
-				6950AB943C8346CB9F12718A /* Frameworks */,
+				A2DAAFC3FC374EDE944516E4 /* Sources */,
+				640FF7332BAF410C83F2E155 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				96CB910B8B864B098282D659 /* PBXTargetDependency */,
+				8A1E3AE11118436D95119D47 /* PBXTargetDependency */,
 			);
 			name = glfw;
 			productName = glfw;
-			productReference = 695CC7594E254922AC642BAE /* glfw */;
+			productReference = A50B4797BCAA4BD6AD5E818C /* glfw */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -346,18 +346,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1420;
 			};
-			buildConfigurationList = 73FA1192EF2247DBBA490A70 /* Build configuration list for PBXProject "GLFW" */;
+			buildConfigurationList = 1B249E1B79914A2CB069193C /* Build configuration list for PBXProject "GLFW" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				598D3284C7FA4ED4B07A1463 /* Debug */,
-				CEC9741369404ED19D15921A /* Release */,
-				A530BD9E5E7C42B38A13F07C /* MinSizeRel */,
-				AC287A856A524A6EBEEAE098 /* RelWithDebInfo */,
+				21C832D472A64C599319C656 /* Debug */,
+				9F3B83D3335D49DC9BC1260E /* Release */,
+				A012C1D0D19646F98ECADDAE /* MinSizeRel */,
+				A09A59FC3CF842B58F56C320 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 0973A99847C9451297D7919A;
+			mainGroup = 9916F5792A9941D6A692EEB4;
 			projectDirPath = "/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7";
 			projectRoot = "";
 			targets = (
@@ -370,7 +370,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		28D27CFCFFEFF05F4E86132F /* Generate CMakeFiles/ZERO_CHECK */ = {
+		12F457B1F3A0C19B3FAE9CB2 /* Generate src/CMakeFiles/update_mappings */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -378,27 +378,27 @@
 			);
 			inputPaths = (
 			);
-			name = "Generate CMakeFiles/ZERO_CHECK";
+			name = "Generate src/CMakeFiles/update_mappings";
 			outputPaths = (
-"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/CMakeFiles/ZERO_CHECK"			);
+"/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/src/CMakeFiles/update_mappings"			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e
 if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7\"
-  make -f /Users/trevordoucet/Desktop/Computer\\ Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/CMakeScripts/ReRunCMake.make
+  cd \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src\"
+  /Applications/CMake.app/Contents/bin/cmake -P \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/CMake/GenerateMappings.cmake\" mappings.h.in mappings.h
 fi
 if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7\"
-  make -f /Users/trevordoucet/Desktop/Computer\\ Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/CMakeScripts/ReRunCMake.make
+  cd \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src\"
+  /Applications/CMake.app/Contents/bin/cmake -P \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/CMake/GenerateMappings.cmake\" mappings.h.in mappings.h
 fi
 if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7\"
-  make -f /Users/trevordoucet/Desktop/Computer\\ Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/CMakeScripts/ReRunCMake.make
+  cd \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src\"
+  /Applications/CMake.app/Contents/bin/cmake -P \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/CMake/GenerateMappings.cmake\" mappings.h.in mappings.h
 fi
 if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7\"
-  make -f /Users/trevordoucet/Desktop/Computer\\ Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/CMakeScripts/ReRunCMake.make
+  cd \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src\"
+  /Applications/CMake.app/Contents/bin/cmake -P \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/CMake/GenerateMappings.cmake\" mappings.h.in mappings.h
 fi
 ";
 			showEnvVarsInLog = 0;
@@ -418,7 +418,7 @@ fi
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		666E90172FE11C5215C7AB28 /* Generate CMakeFiles/ALL_BUILD */ = {
+		60021C2B1462458C2AC77604 /* Generate CMakeFiles/ALL_BUILD */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -428,58 +428,25 @@ exit 0";
 			);
 			name = "Generate CMakeFiles/ALL_BUILD";
 			outputPaths = (
-"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/CMakeFiles/ALL_BUILD"			);
+"/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/CMakeFiles/ALL_BUILD"			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e
 if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7\"
+  cd /Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7
   echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7\"
+  cd /Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7
   echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7\"
+  cd /Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7
   echo Build\\ all\\ projects
 fi
 if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7\"
+  cd /Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7
   echo Build\\ all\\ projects
-fi
-";
-			showEnvVarsInLog = 0;
-		};
-		83390919975BD83F10354016 /* Generate src/CMakeFiles/update_mappings */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Generate src/CMakeFiles/update_mappings";
-			outputPaths = (
-"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/src/CMakeFiles/update_mappings"			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e
-if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src\"
-  /Applications/CMake.app/Contents/bin/cmake -P \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/CMake/GenerateMappings.cmake\" mappings.h.in mappings.h
-fi
-if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src\"
-  /Applications/CMake.app/Contents/bin/cmake -P \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/CMake/GenerateMappings.cmake\" mappings.h.in mappings.h
-fi
-if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src\"
-  /Applications/CMake.app/Contents/bin/cmake -P \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/CMake/GenerateMappings.cmake\" mappings.h.in mappings.h
-fi
-if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src\"
-  /Applications/CMake.app/Contents/bin/cmake -P \"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/CMake/GenerateMappings.cmake\" mappings.h.in mappings.h
 fi
 ";
 			showEnvVarsInLog = 0;
@@ -497,6 +464,39 @@ fi
 			shellPath = /bin/sh;
 			shellScript = "# shell script goes here
 exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E550755D6AD9A608D5BF799F /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7
+  make -f /Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7
+  make -f /Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7
+  make -f /Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7
+  make -f /Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/CMakeScripts/ReRunCMake.make
+fi
+";
 			showEnvVarsInLog = 0;
 		};
 		EF220574C043FA76D2683574 = {
@@ -517,82 +517,55 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C343E97C631F4571A32FF3FC /* Sources */ = {
+		A2DAAFC3FC374EDE944516E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2681174B8115452284ABC79D /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_init.m */,
-				4BB9EFBB775C4A65BEF9F9BC /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_joystick.m */,
-				AC8055BF71CA42C5A92BD28E /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_monitor.m */,
-				B344597BFF9E42C982A1A3B1 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_time.c */,
-				B9F915AD5EC243B8BAA0C654 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_window.m */,
-				AE0B3D2657364EC0A0324093 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/context.c */,
-				43E2FE5C1E944DF999800A62 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/egl_context.c */,
-				2DF947E9A2D24E5BAC3DD9D4 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/init.c */,
-				21F5201C1DD44499BA15C07E /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/input.c */,
-				69853075447C46618DB99523 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/monitor.c */,
-				C5D9E3FDD13242F485700E37 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/nsgl_context.m */,
-				9916304FDBEF419AA4596BC5 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/osmesa_context.c */,
-				7E43CD5883F5420691B45B83 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/posix_thread.c */,
-				729CE6E4AA634B7F81F0F4E9 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/vulkan.c */,
-				21A46ED4734D449F965E7353 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/window.c */,
+				DC6BFBB190844DE5A18EF3AF /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_init.m */,
+				7A9F8213451341FB98AC9AD5 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_joystick.m */,
+				5B8BBCDEAF594920AC21A734 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_monitor.m */,
+				77B73B5AF10941BD80176A28 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_time.c */,
+				5BCBF958BAC44DEEB196C50C /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/cocoa_window.m */,
+				ADB41BF2AD8D41BC9F63EB5D /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/context.c */,
+				C3E94FED42034816979DD921 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/egl_context.c */,
+				560DE998515D45D3957E8915 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/init.c */,
+				8C4BB20088D5426681B4D0EF /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/input.c */,
+				5766557A7055415C90C224DE /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/monitor.c */,
+				258DDE4C27F340B8881C3FDA /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/nsgl_context.m */,
+				F16B2CB44D9C46018833F664 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/osmesa_context.c */,
+				B96A4E79A4BB4B99A4717195 /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/posix_thread.c */,
+				76E1A3AC26FE4EB8B988F53B /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/vulkan.c */,
+				F9F068FC45BA4171A67E4DFF /* /Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src/window.c */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		96CB910B8B864B098282D659 /* PBXTargetDependency */ = {
+		28A0FCEA08734515AA4E81FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B584B7FF9F56432B9C37D9F6 /* ZERO_CHECK */;
-			targetProxy = 698E9D05E59743E381F555F7 /* PBXContainerItemProxy */;
+			targetProxy = 5DDEF88835B44FA7950C03AF /* PBXContainerItemProxy */;
 		};
-		9AA7CB177DE54D6CAF54E552 /* PBXTargetDependency */ = {
+		5E225A484F8A4266ABE8127F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CED32B1B8EF646E5AD9F879C /* glfw */;
-			targetProxy = 6282B5961CAF4972B5D383DF /* PBXContainerItemProxy */;
+			targetProxy = C382E40FC8D94AED9FE3BF2D /* PBXContainerItemProxy */;
 		};
-		A71596321F844712A3FAC04F /* PBXTargetDependency */ = {
+		8A1E3AE11118436D95119D47 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B584B7FF9F56432B9C37D9F6 /* ZERO_CHECK */;
-			targetProxy = 9371587CA05246EF8F9EB11F /* PBXContainerItemProxy */;
+			targetProxy = 36E96CFC2ED0443783989492 /* PBXContainerItemProxy */;
 		};
-		BB55899FA6A94B0D8AAE67B8 /* PBXTargetDependency */ = {
+		D2C50AC19B0B40428B3AC43D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B584B7FF9F56432B9C37D9F6 /* ZERO_CHECK */;
-			targetProxy = 23BD764547A743C491132442 /* PBXContainerItemProxy */;
+			targetProxy = B0845EE14436462D8D30918D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		142B6BDBAC3046D989A4FECB /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/src/MinSizeRel";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("\"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include\"","\"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src\"","\"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/src\"","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' -fPIC -Wall ","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		182888812B0C4422AEB5FAED /* RelWithDebInfo */ = {
+		17946547DC2E4265BA3DCB55 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -605,46 +578,30 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = update_mappings;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = RelWithDebInfo;
+			name = MinSizeRel;
 		};
-		2AA70A472EC3488598ECE0A6 /* Release */ = {
+		191977C7413645CFA557FD80 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/src/Release";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("\"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include\"","\"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src\"","\"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/src\"","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' -fPIC -Wall ","$(inherited)");
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = glfw3;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = /Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/build;
 			};
-			name = Release;
+			name = Debug;
 		};
-		2AD95BC19DCD4953942A1011 /* RelWithDebInfo */ = {
+		3ED31EA6B8A4403DA4BDE183 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/src/RelWithDebInfo";
+				CONFIGURATION_BUILD_DIR = "/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/src/RelWithDebInfo";
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -652,7 +609,7 @@ exit 0";
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("\"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include\"","\"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src\"","\"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/src\"","$(inherited)");
+				HEADER_SEARCH_PATHS = ("\"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include\"","\"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src\"","/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/src","$(inherited)");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' -fPIC -Wall ","$(inherited)");
@@ -660,148 +617,13 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
 				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				TARGET_TEMP_DIR = "/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		44AA54419E8148A0BD228929 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
-				SYMROOT = "/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/build";
-			};
-			name = Debug;
-		};
-		4CDA2966D2FD4D0EBE791B73 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = update_mappings;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		56D447BE4706435BA9653489 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		57B3AF6E8CB148FEB9D2C2BE /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = update_mappings;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		5B79D9586E0241B59B1AFC3D /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		774CC8D3EDBE41FEA2B07DD5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		845F7579F665401BBB6D4585 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/build";
-			};
-			name = Release;
-		};
-		864FE103925C427FBA36305D /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/build";
-			};
-			name = MinSizeRel;
-		};
-		965474BB1E974791B2237646 /* Debug */ = {
+		50001078CFF8443DB5C9D7FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -821,7 +643,99 @@ exit 0";
 			};
 			name = Debug;
 		};
-		99350A04B36F4984B05B4F31 /* RelWithDebInfo */ = {
+		5D9EA377D4894FE9AD87EF98 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6B5A70A12BF84F76B2E08871 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/build;
+			};
+			name = MinSizeRel;
+		};
+		6F05340631B44FEDBF1A17AA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		73DFCBADDE1646D9B024B6DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		95073BAF483443168345D8B3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9BC2E2F99099400F95DE5014 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -839,26 +753,128 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = RelWithDebInfo;
+			name = Release;
 		};
-		A4B871DD694D46689AF6E6DE /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/build";
-			};
-			name = RelWithDebInfo;
-		};
-		CDF095BB89BF4FC6A0BE348A /* Debug */ = {
+		A083E32EA0F245908FEDC6CD /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/src/Debug";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A736405110CF4E3997CD1233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AD520465C55E44CA81977C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = update_mappings;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BC91240A3C814F35A8170F54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/src/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include\"","\"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src\"","/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' -fPIC -Wall ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C7816D0602E3429DAFE65FB1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/src/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include\"","\"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src\"","/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' -fPIC -Wall ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D033CBB0C0B947DAB0CCD3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/src/Debug";
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -866,7 +882,7 @@ exit 0";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,"$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("\"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include\"","\"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src\"","\"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/glfw-3.3.7/src\"","$(inherited)");
+				HEADER_SEARCH_PATHS = ("\"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/include\"","\"/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/glfw-3.3.7/src\"","/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/glfw-3.3.7/src","$(inherited)");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				OTHER_CFLAGS = ("   '-std=gnu99' -fPIC -Wall ","$(inherited)");
@@ -874,13 +890,37 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = glfw3;
 				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/trevordoucet/Desktop/Computer Graphics/Repositories/module-3-intersections-group-3/Asteroids!_HD/build/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				TARGET_TEMP_DIR = "/Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		CF12C03032B842D8AA68636D /* RelWithDebInfo */ = {
+		E1231B32C4AB4BCFBC66E43E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		E713C2FCF1064EF18E131F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/trevordoucet/Desktop/Arcade_Game/PacMan/build/build;
+			};
+			name = Release;
+		};
+		EFB14174F7884579A47E2633 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -898,9 +938,9 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = RelWithDebInfo;
+			name = Debug;
 		};
-		EE93DE5E91AC4E218C618C21 /* Release */ = {
+		FD5534082E2E491A96E5E7E2 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -918,102 +958,62 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
-		};
-		FEB501835AB640138BDCB440 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		FF920C8D94A54251BCE95A03 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
+			name = RelWithDebInfo;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C5DE50CF6E948A3A3145DF5 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+		0D5E8D1BA6FC4B9CBA8FDA36 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDF095BB89BF4FC6A0BE348A /* Debug */,
-				2AA70A472EC3488598ECE0A6 /* Release */,
-				142B6BDBAC3046D989A4FECB /* MinSizeRel */,
-				2AD95BC19DCD4953942A1011 /* RelWithDebInfo */,
+				50001078CFF8443DB5C9D7FA /* Debug */,
+				73DFCBADDE1646D9B024B6DF /* Release */,
+				5D9EA377D4894FE9AD87EF98 /* MinSizeRel */,
+				A083E32EA0F245908FEDC6CD /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		31C3EB022E06432486BF15E1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		111357EA3B364A10ADD1444C /* Build configuration list for PBXAggregateTarget "update_mappings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				56D447BE4706435BA9653489 /* Debug */,
-				FF920C8D94A54251BCE95A03 /* Release */,
-				5B79D9586E0241B59B1AFC3D /* MinSizeRel */,
-				CF12C03032B842D8AA68636D /* RelWithDebInfo */,
+				AD520465C55E44CA81977C89 /* Debug */,
+				9BC2E2F99099400F95DE5014 /* Release */,
+				17946547DC2E4265BA3DCB55 /* MinSizeRel */,
+				FD5534082E2E491A96E5E7E2 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		5693C277D8144741834D8047 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		1B249E1B79914A2CB069193C /* Build configuration list for PBXProject "GLFW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				965474BB1E974791B2237646 /* Debug */,
-				774CC8D3EDBE41FEA2B07DD5 /* Release */,
-				FEB501835AB640138BDCB440 /* MinSizeRel */,
-				182888812B0C4422AEB5FAED /* RelWithDebInfo */,
+				191977C7413645CFA557FD80 /* Debug */,
+				E713C2FCF1064EF18E131F37 /* Release */,
+				6B5A70A12BF84F76B2E08871 /* MinSizeRel */,
+				E1231B32C4AB4BCFBC66E43E /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		73FA1192EF2247DBBA490A70 /* Build configuration list for PBXProject "GLFW" */ = {
+		5FD17A9EFE07416FAEBF5FA2 /* Build configuration list for PBXNativeTarget "glfw" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				44AA54419E8148A0BD228929 /* Debug */,
-				845F7579F665401BBB6D4585 /* Release */,
-				864FE103925C427FBA36305D /* MinSizeRel */,
-				A4B871DD694D46689AF6E6DE /* RelWithDebInfo */,
+				D033CBB0C0B947DAB0CCD3C5 /* Debug */,
+				BC91240A3C814F35A8170F54 /* Release */,
+				C7816D0602E3429DAFE65FB1 /* MinSizeRel */,
+				3ED31EA6B8A4403DA4BDE183 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		9020DE8BB62A40C197B8D91A /* Build configuration list for PBXAggregateTarget "update_mappings" */ = {
+		AFEF323AEC1E419F905777E9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4CDA2966D2FD4D0EBE791B73 /* Debug */,
-				EE93DE5E91AC4E218C618C21 /* Release */,
-				57B3AF6E8CB148FEB9D2C2BE /* MinSizeRel */,
-				99350A04B36F4984B05B4F31 /* RelWithDebInfo */,
+				EFB14174F7884579A47E2633 /* Debug */,
+				A736405110CF4E3997CD1233 /* Release */,
+				6F05340631B44FEDBF1A17AA /* MinSizeRel */,
+				95073BAF483443168345D8B3 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

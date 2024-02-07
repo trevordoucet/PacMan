@@ -3,131 +3,200 @@
 GLFWwindow* window;
 Game *game;
 
-static void error_callback(int error, const char* description)
-{
-  fprintf(stderr, "Error: %s\n", description);
+void drawCircle( GLfloat x, GLfloat y, GLfloat z, GLfloat radius, GLint numberofSides, GLfloat r, GLfloat g, GLfloat b);
+
+float pacman_x = 320.0f;
+float pacman_y = 240.0f;
+
+float ghost_x = 320.0f;
+float ghost_y = 240.0f;
+float ghost_speed_x = 2.0f;
+float ghost_speed_y = 2.0f;
+
+bool checkCollision(float x1, float y1, float r1, float x2, float y2, float r2) {
+    float dx = x2 - x1;
+    float dy = y2 - y1;
+    float distance = sqrt(dx * dx + dy * dy);
+    return distance < (r1 + r2);
 }
 
-static void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods)
-{
-  if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
-    glfwSetWindowShouldClose(window, GLFW_TRUE);
-  if (key == GLFW_KEY_LEFT && (action == GLFW_PRESS || action == GLFW_REPEAT))
-    game->ship->rotateLeft();
-  if (key == GLFW_KEY_RIGHT && (action == GLFW_PRESS || action == GLFW_REPEAT))
-    game->ship->rotateRight();
-  if ( (key == GLFW_KEY_RIGHT || key == GLFW_KEY_LEFT)  && action == GLFW_RELEASE)
-    game->ship->stopTurn();
-  if (key == GLFW_KEY_SPACE){
-    if(action == GLFW_PRESS){
-      game->ship->start_thruster();
+void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods) {
+    const float speed = 10.0f;
+    if (action == GLFW_PRESS || action == GLFW_REPEAT) {
+        switch (key) {
+            case GLFW_KEY_UP:
+                pacman_y += speed;
+                break;
+            case GLFW_KEY_DOWN:
+                pacman_y -= speed;
+                break;
+            case GLFW_KEY_LEFT:
+                pacman_x -= speed;
+                break;
+            case GLFW_KEY_RIGHT:
+                pacman_x += speed;
+                break;
+            default:
+                break;
+        }
     }
-    if(action == GLFW_RELEASE){
-      game->ship->stop_thruster();
-    }
-  }
-  if (key == GLFW_KEY_Z && action == GLFW_PRESS){
-    game->bullets.add(game->ship->pew_pew());
-  }
-}
-
-void init(){
-  
-  glClearColor(0.0, 0.0, 0.0, 1.0);
-  glHint (GL_LINE_SMOOTH_HINT, GL_NICEST);
-  glHint (GL_POINT_SMOOTH_HINT, GL_NICEST);
-  
-  glEnable(GL_BLEND);
-  glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
-  
-  int width, height;
-  glfwGetWindowSize(window, &width, &height);
-  game->screen_extents[0] = -1*(float)width/(float)height;
-  game->screen_extents[1] = 1*(float)width/(float)height;
-  game->screen_extents[2] = -1.0;
-  game->screen_extents[3] = 1.0;
-  
-  game->init();
-  
-}
-
-//Call update function 30 times a second
-void animate(){
-  if(glfwGetTime() > 0.033){
-    glfwSetTime(0.0);
-    
-    game->update();
-    
-  }
 }
 
 int main(void)
 {
-  
-  srand (time(NULL));
-  
-  
-  glfwSetErrorCallback(error_callback);
-  
-  if (!glfwInit())
-    exit(EXIT_FAILURE);
-  
-  glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
-  glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 2);
-  glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
-  glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-  
-  glfwWindowHint(GLFW_SAMPLES, 10);
-  
-  window = glfwCreateWindow(1024, 768, "Asteroids!", NULL, NULL);
-  game = new Game();
+    GLFWwindow* window;
+ 
+    if (!glfwInit())
+    {
+        return -1;
+    }
+ 
+    window = glfwCreateWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Simple Motion", NULL, NULL);
+ 
+    if (!window)
+    {
+        glfwTerminate();
+        return -1;
+    }
+ 
+    glfwMakeContextCurrent(window);
+    
+    if (!gladLoadGL(glfwGetProcAddress)) {
+        printf("Failed to initialize GLAD\n");
+        return -1;
+    }
+    
+    glfwSetKeyCallback(window, key_callback);
+    glViewport(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+    glOrtho(0, SCREEN_WIDTH, 0, SCREEN_HEIGHT, 0, 1);
+    glMatrixMode(GL_MODELVIEW);
+    glLoadIdentity();
+    float triangle_angle = 60;
 
-  if (!window){
+    while (!glfwWindowShouldClose(window))
+    {
+
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        
+        // Ghost Character
+        ghost_x += ghost_speed_x;
+        ghost_y += ghost_speed_y;
+        
+        // Adjusted boundary checks
+        if (ghost_x > SCREEN_WIDTH - 80 || ghost_x < 80) {
+            ghost_speed_x *= -1;
+        }
+        if (ghost_y > SCREEN_HEIGHT - 80 || ghost_y < 80) {
+            ghost_speed_y *= -1;
+        }
+        
+        bool collided = checkCollision(pacman_x, pacman_y, 75, ghost_x, ghost_y, 75);
+        
+
+        
+        glColor3ub(1, 1, 1);
+        glMatrixMode(GL_MODELVIEW);
+        glLoadIdentity();
+        // Draw Pac-Man (Circle) at the updated position
+        if (collided) {
+            drawCircle(pacman_x, pacman_y, 0, 80, 360, 1.0, 0.0, 0.0); // Pac-Man in red if collided
+        } else {
+            drawCircle(pacman_x, pacman_y, 0, 80, 360, 1.0, 1.0, 0.0); // Pac-Man in original color if not collided
+        }
+        // Pac-Man Mouth
+        glMatrixMode(GL_MODELVIEW);
+        glLoadIdentity();
+        glTranslatef(pacman_x, pacman_y, 0);
+        glRotatef(180.0, 0.0f, 0.0f, 1.0f);
+        glTranslatef(50, 120, 0.0);
+        drawCircle(-100, -118, 0, 60, 3, 0.0, 0.0, 0.0);
+        
+        glMatrixMode(GL_MODELVIEW);
+        glLoadIdentity();
+
+        glTranslatef(ghost_x, ghost_y, 0);
+        // Body, Eye
+        drawCircle(0, 0, 0, 80, 360, 1.0, 0.0, 0.0);
+
+        drawCircle(0, 0, 0, 40, 360, 1.0, 1.0, 1.0);
+
+        drawCircle(0, 0, 0, 20, 360, 0.0, 0.0, 0.0);
+
+        // Legs
+        glPushMatrix();
+        glRotatef(31.0f, 0.0f, 0.0f, 1.0f);
+        drawCircle(-55, -48, 0, 30, 3, 1.0, 0.0, 0.0);
+        glPopMatrix();
+
+        glPushMatrix();
+        glRotatef(31.0f, 0.0f, 0.0f, 1.0f);
+        drawCircle(-15, -73, 0, 30, 3, 1.0, 0.0, 0.0);
+        glPopMatrix();
+
+        glfwSwapBuffers(window);
+
+ 
+        glfwPollEvents();
+    }
+    
+ 
     glfwTerminate();
-    exit(EXIT_FAILURE);
-  }
-  
-  glfwSetKeyCallback(window, key_callback);
-  
-  glfwMakeContextCurrent(window);
-  gladLoadGL(glfwGetProcAddress);
-  glfwSwapInterval(1);
-  
-
-  init();
-  
-  while (!glfwWindowShouldClose(window)){
-    
-    int FB_width, FB_height;
-    glfwGetFramebufferSize(window, &FB_width, &FB_height);
-    glViewport(0, 0, FB_width, FB_height);
-    
-    int width, height;
-    glfwGetWindowSize(window, &width, &height);
-    game->screen_extents[0] = -1*(float)width/(float)height;
-    game->screen_extents[1] = 1*(float)width/(float)height;
-    game->screen_extents[2] = -1.0;
-    game->screen_extents[3] = 1.0;
-    
-    //(left, right, bottom, top)        
-    mat4 proj = Ortho2D(game->screen_extents[0],game->screen_extents[1],
-                        game->screen_extents[2],game->screen_extents[3]);
-    
-    animate();
-    
-    glClear(GL_COLOR_BUFFER_BIT);
-    
-    game->draw(proj);
-
-    glfwSwapBuffers(window);
-    glfwPollEvents();
-    
-  }
-  
-  glfwDestroyWindow(window);
-  
-  glfwTerminate();
-  
-  delete game;
-  exit(EXIT_SUCCESS);
+ 
+    return 0;
 }
+
+
+void drawCircle(GLfloat x, GLfloat y, GLfloat z, GLfloat radius, GLint numberOfSides, GLfloat r, GLfloat g, GLfloat b)
+{
+    GLint numberOfVertices = numberOfSides + 2;
+    GLfloat doublePi = 2.0f * M_PI;
+ 
+    GLfloat* circleVertices = (GLfloat*)malloc(sizeof(GLfloat) * 3 * numberOfVertices);
+    GLfloat* circleColors = (GLfloat*)malloc(sizeof(GLfloat) * 3 * numberOfVertices);
+ 
+    circleVertices[0] = x;
+    circleVertices[1] = y;
+    circleVertices[2] = z;
+ 
+    circleColors[0] = r;
+    circleColors[1] = g;
+    circleColors[2] = b;
+ 
+    for (int i = 0; i < numberOfVertices; i++)
+    {
+        circleVertices[i * 3] = x + (radius * cos(i * doublePi / numberOfSides));
+        circleVertices[i * 3 + 1] = y + (radius * sin(i * doublePi / numberOfSides));
+        circleVertices[i * 3 + 2] = z;
+ 
+        float angle = i * doublePi / numberOfSides;
+ 
+        
+        //GLfloat r = 1.0;
+       // GLfloat g = 0.64;
+       // GLfloat b = 0.0;
+ 
+        circleColors[i * 3] = r;
+        circleColors[i * 3 + 1] = g;
+        circleColors[i * 3 + 2] = b;
+    }
+ 
+    glEnableClientState(GL_VERTEX_ARRAY);
+    glVertexPointer(3, GL_FLOAT, 0, circleVertices);
+ 
+    glEnableClientState(GL_COLOR_ARRAY);
+    glColorPointer(3, GL_FLOAT, 0, circleColors);
+ 
+    glDrawArrays(GL_TRIANGLE_FAN, 0, numberOfVertices);
+ 
+    glDisableClientState(GL_COLOR_ARRAY);
+    glDisableClientState(GL_VERTEX_ARRAY);
+    
+ 
+    free(circleVertices);
+    free(circleColors);
+}
+ 
+
+
