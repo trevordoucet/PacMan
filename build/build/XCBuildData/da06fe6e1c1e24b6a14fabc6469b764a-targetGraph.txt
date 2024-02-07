@@ -1,0 +1,10 @@
+Target dependency graph (4 targets)
+ZERO_CHECK in ASTEROIDS, no dependencies
+glfw in ASTEROIDS, no dependencies
+glad in ASTEROIDS, depends on:
+ZERO_CHECK in ASTEROIDS (explicit)
+glfw in ASTEROIDS (explicit)
+asteroids in ASTEROIDS, depends on:
+ZERO_CHECK in ASTEROIDS (explicit)
+glfw in ASTEROIDS (explicit)
+glad in ASTEROIDS (explicit)
